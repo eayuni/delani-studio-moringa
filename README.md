@@ -11,11 +11,18 @@ Contributors names and contact info
 ex. Eunice Otieno (https://github.com/eayuni)
 
 ## Technologies used
-Javascript
+HTML
+CSS
+Bootstrap
+JavaScript
+JQuery
 
-### Dependencies
+### Setup instructions
 
-* Install Node js
+Open your terminal (CTRL ALT T)
+Clone the project from github clone 
+cd Desani
+Open the folder in your text editor prefferably VS-code (code .)
 
 ## License
 
