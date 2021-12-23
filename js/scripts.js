@@ -34,11 +34,30 @@ $(document).ready(function(){
           $(".image3").show(1200);
       })
   });
-  $(document).ready(function(){
+ /**  $(document).ready(function(){
       $(".text").hover(function(){
           $(this).animate({opacity: '1'});
       },
       function(){
           $(this).animate({opacity:'0'});
+      })
+  });*/
+
+  $(document).ready(function(){
+    $("#submitform").on('submit',function(event){
+        event.preventDefault();
+        let name = $("#name").val();
+        let email = $("#email").val();
+        let message = $("#message").val();
+        console.log(name);
+        console.log(email);
+
+        if (name != null && email != null){
+            alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly!");
+        }
+        else {
+            alert("Please provide your correct name and email!");
+        }
+        event.preventDefault();
       })
   });
